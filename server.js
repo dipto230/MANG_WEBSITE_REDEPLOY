@@ -31,7 +31,9 @@ await connectCloudinary()
 
 app.use(cors({
   origin: [
-    "http://localhost:5173",
+     "http://localhost:5173",
+    "https://manguuu.com",
+    "https://www.manguuu.com",
     "https://mang-website.vercel.app"
   ],
   credentials: true
