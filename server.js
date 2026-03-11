@@ -50,7 +50,7 @@ app.use('/api/educator', express.json(), educatorRouter)
 app.use("/api/products", express.json(), productRoutes);
 app.use("/api/orders", express.json(), orderRoutes);
 app.use("/api/admin", express.json(), adminRoutes);
-app.use("/api/payment", paymentRouter);
+app.use("/api/payment", express.json(), paymentRouter);
 app.use('/api/course', express.json(), courseRouter)
 app.use('/api/user', express.json(), userRouter)
 app.use("/api/project", projectRouter)
